@@ -1,0 +1,35 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1240px;
+  margin: 4rem auto;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  padding: 2rem;
+}
+
+.hero .left h1 {
+  margin: 1rem 0;
+}
+
+.hero .left form {
+  margin: 1rem 0;
+}
+
+.hero .right img {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1240px) {
+  .hero {
+    flex-direction: column;
+  }
+}
