@@ -1,6 +1,5 @@
 {
   "name": "defi-site",
-  "homepage": "http://alexlangidis.github.io/react-projects/defi-site",
   "private": true,
   "version": "0.0.0",
   "type": "module",
